@@ -6,5 +6,10 @@ p {line-height: 2}
   background-position: center;
   background-size: cover;
 }
+
+.mapa {
+  font-size: 10px;
+}
+
 .bgimg {background-image: url("/w3images/wedding_couple.jpg")}
 .bgimg2 {background-image: url("/w3images/flowers.jpg")}
