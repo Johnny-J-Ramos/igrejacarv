@@ -1,15 +1,12 @@
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+* {
+  padding: 0;
+  margin: 0;
+  
 }
 
-.mapa {
-  font-size: 10px;
+.main  {
+  width: 100%;
+  height: 100vh;
+  justify-items: center;
+ 
 }
-
-.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
-.bgimg2 {background-image: url("/w3images/flowers.jpg")}
