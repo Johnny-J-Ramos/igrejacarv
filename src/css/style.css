@@ -1,38 +1,35 @@
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body,
-html {
-  height: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo {
-  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #a58b7d;
 }
 
-/* Position text in the top-left corner */
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
+.contener {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-/* Position text in the bottom-left corner */
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
+.logo,
+img {
+    height: 120px;
+    width: 120px;
 }
 
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+p,
+h1 {
+    text-align: center;
 }
 
-/* Style the <hr> element */
-hr {
-  margin: auto;
-  width: 40%;
+#footer,
+p {
+    top: 0;
 }
