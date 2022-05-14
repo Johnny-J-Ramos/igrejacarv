@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "npm": "^8.10.0"
+  },
+  "name": "igrejacarv",
+  "description": "link do site da Igreja Comunidade Apostólica Restaurando Vidas\r - [https://www.carestaurandovidas.com/]",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnny-J-Ramos/igrejacarv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnny-J-Ramos/igrejacarv/issues"
+  },
+  "homepage": "https://github.com/Johnny-J-Ramos/igrejacarv#readme"
+}
